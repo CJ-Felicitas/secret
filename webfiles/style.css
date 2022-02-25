@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+  background: url("images/body-bg.jpg") repeat-x;
+}
+
+/*header style*/
+#wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#logo {
+  margin-top: 34px;
+  margin-bottom: 40px;
+}
+
+#nav ul {
+  margin-left: -55px;
+}
+
+#nav li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+a {
+  font: 12px Arial;
+  text-decoration: none;
+}
+
+#nav #home:link {
+  color: white;
+  background: url("images/nav-left.jpg") no-repeat left,
+    url("images/nav-right.jpg") no-repeat right,
+    url("images/nav-mid.jpg") repeat-x;
+  padding: 8px 20px;
+}
+
+#nav #home:visited {
+  color: white;
+}
+
+#nav a:hover {
+  color: white;
+  background: url("images/nav-left.jpg") no-repeat left,
+    url("images/nav-right.jpg") no-repeat right,
+    url("images/nav-mid.jpg") repeat-x;
+  padding: 8px 20px;
+}
+
+/*banner style*/
+#banner {
+  background: white;
+  margin-top: 45px;
+  height: 363px;
+}
+
+#banner img {
+  margin: 10px;
+  float: left;
+}
+
+#quick-quote {
+  background: url("images/form-bg.jpg") repeat-x;
+  width: 300px;
+  float: left;
+  margin-top: 10px;
+  padding: 2px 19px;
+}
+
+#quick-quote h2 {
+  color: white;
+  font: 20px "Trebuchet MS";
+}
+#quick-quote span {
+  color: white;
+  font: 12px "Trebuchet MS";
+  line-height: 30px;
+}
+
+#quick-quote #in {
+  border: 5px solid white;
+  border-radius: 5px;
+  font: 12px "Trebuchet MS";
+  width: 300px;
+}
+
+#quick-quote #btn {
+  background-image: linear-gradient(#757474, black);
+  margin-top: 13px;
+  width: 100px;
+  padding: 8px;
+  font: 12px "Trebuchet MS";
+  color: white;
+}
+#main {
+  margin-top: 80px;
+  background-repeat: repeat-x;
+}
+
+
+.col1 {
+  width: 303px;
+  height: 172px;
+  float: left;
+  background-image: url("images/main.jpg");
+  border: 1px solid #d8d8d8;
+  padding-top: 12px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.col1 img {
+  display: block;
+}
+.col2 img {
+  display: block;
+  margin-bottom: 3px;
+}
+.col3  img {
+  display: block;
+}
+
+.col1 p {
+  font-size: 13px;
+}
+.col2 p {
+  font-size: 13px;
+}
+.col3 p {
+  font-size: 13px;
+}
+
+#inner-column-left {
+  width: 170px;
+  float: left;
+}
+#inner-column-left a{
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+}
+#inner-column-right {
+  float: left;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.col2 {
+  width: 303px;
+  height: 172px;
+  float: left;
+  background-image: url("images/main.jpg");
+  border: 1px solid #d8d8d8;
+  margin-left: 45px;
+  padding-top: 12px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.col3 {
+  width: 303px;
+  height: 172px;
+  float: left;
+  background-image: url("images/main.jpg");
+  border: 1px solid #d8d8d8;
+  margin-left: 45px;
+  padding-top: 12px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+#footer{
+ 
+  background-image: url("images/footer-bg.jpg");
+  background-repeat: repeat-x;
+  margin-top: 300px;
+  width: 100%;
+  height: 100px;
+ 
+}
+#content{
+  width: 1000px;
+  margin:auto;
+  padding-top:20px;
+  color: white;
+  font-size: 12px;
+}
+#content p{
+  font-size: 12px;
+  color: white;
+  padding: 20px;
+}
+#content a{
+  color: white;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+#right-column-footer{
+  
+  width: 500px;
+  float: left;
+}
+#left-column-footer{
+  width: 500px;
+  float: left;
+}
+#footer-input{
+  width: 173px;
+  height: 36px;
+  border-radius:5px;
+}
+#submit-button{
+  color: white;
+  background-image: url("images/button background.jpg");
+  height: 36px;
+}
+#right-column-content{
+  margin-left: 248px;
+}
